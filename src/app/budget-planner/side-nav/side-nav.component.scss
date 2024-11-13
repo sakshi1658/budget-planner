@@ -22,11 +22,11 @@
   cursor: pointer;
   z-index: 1001;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
 
-.toggle-button-row mat-icon {
-  font-size: 24px;
-  color: #008080;
+  mat-icon {
+    font-size: 24px;
+    color: #008080;
+  }
 }
 
 .slide-out-panel {
@@ -36,19 +36,19 @@
   bottom: 0;
   width: 250px;
   background: linear-gradient(135deg, #008080, #80ced6);
-  transition: transfrom 0.3s ease-out;
+  transition: transform 0.3s ease-out;
   z-index: 1000;
   border-top-right-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
 
-.slide-out-panel.slide-out {
-  transform: translateX(-100%);
-}
+  &.slide-out {
+    transform: translateX(-100%);
+  }
 
-.slide-out-content {
-  margin-top: 80px;
-  padding: 20px;
+  .slide-out-content {
+    margin-top: 80px;
+    padding: 20px;
+  }
 }
 
 .edit-col {
@@ -59,13 +59,13 @@
   border-radius: 10px;
   background-color: #ffffff;
   margin-bottom: 10px;
+
+  &:hover {
+    color: #008080;
+  }
 }
 
-.edit-col:hover {
-  color: #008080;
-}
-
-.nav{
+.nav {
   text-align: center;
   justify-content: center;
   background-color: #87dcdc;
