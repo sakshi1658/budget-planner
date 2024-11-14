@@ -21,8 +21,12 @@ export class IncomeComponent {
     });
   }
 
+  onChange(event:any){
+
+  }
+
   onSubmit(){
-    
+
   }
 
 }
